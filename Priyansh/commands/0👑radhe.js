@@ -13,11 +13,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("radhe radhe") ||
-     react.includes("Radhe") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
-react.includes("kanha") ||
-react.includes("murli") ||     
-react.includes("Radha")) {
+  if(react.includes("radhe") ||   
+react.includes("Radhe")) {
     var msg = {
         body: `
 ⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱  
@@ -27,7 +24,7 @@ react.includes("Radha")) {
   ⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🌺", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = async ({ api, event, Currencies, args, utils, client, global }) => {
