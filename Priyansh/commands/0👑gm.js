@@ -20,10 +20,10 @@ react.includes("morning")) {
 ☆ ᕱ⑅ᕱ
 ପ(„• ༝ •„)ଓ
 ┏━∪∪━━━━━━━━━━━━━┓
- ⋆☀︎.˖˳ 𝐆𝐨𝐨𝐝 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 ⋆⋆˖⋆☀︎.
+ ⋆.Uthjao kumbhkaran ⋆⋆˖⋆☀︎.
 ┗━━━━━━━━━━━━━━━━┛  
 
-  ☀️✨🫵🏻ـــــــــــــﮩ٨ـ❤️️⋆`,attachment: fs.createReadStream(__dirname + `/noprefix/gm.jpg`)
+  ☀️✨🫵🏻ـــــــــــــﮩ٨ـ❤️️⋆`,attachment: fs.createReadStream(__dirname + `/noprefix/gm.mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("☔", event.messageID, (err) => {}, true)
