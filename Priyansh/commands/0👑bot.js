@@ -258,8 +258,8 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
     return api.sendMessage("️Muh mat kholo chuha 🐀 dal dungi muh me៚♥😇", threadID);
    };
 
-   if ((event.body.toLowerCase() =="gurop aao") || (event.body.toLowerCase() == "join karo")) {
-     return api.sendMessage("️https://m.me/j/AbYh1MaU1FI6WRm0/", threadID);
+   if ((event.body.toLowerCase() =="owner") || (event.body.toLowerCase() == "boss")) {
+     return api.sendMessage("️https://www.facebook.com/Chinal.ladkiya.dur.rahe", threadID);
    };
 
    if ((event.body.toLowerCase() == "🙂") || (event.body.toLowerCase() == "🙃")) {
