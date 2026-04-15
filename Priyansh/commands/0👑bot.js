@@ -62,8 +62,8 @@ if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")
        return api.sendMessage("𝐇𝐀𝐍 𝐁𝐇𝐀𝐈 𝐀𝐀𝐀 𝐆𝐘𝐀 𝐒𝐖𝐀𝐃 𝐓𝐎𝐓 𝐆𝐀𝐘𝐀 𝐃𝐈𝐋😂 ", threadID);
      };
 
-        if ((event.body.toLowerCase() == "🙄") || (event.body.toLowerCase() == "🙄🙄")) {
-       return api.sendMessage("𝐔𝐩𝐚𝐫 𝐏𝐚𝐧𝐤𝐡𝐚 𝐜𝐡𝐚𝐥𝐭𝐚 𝐡𝐚𝐢🤣", threadID);
+        if ((event.body.toLowerCase() == "🍌") || (event.body.toLowerCase() == "😼")) {
+       return api.sendMessage("Gandu", threadID);
      };
 
            if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "😣")) {
