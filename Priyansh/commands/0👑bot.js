@@ -155,8 +155,8 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
      return api.sendMessage(" 𝐍𝐡𝐢 𝐫𝐚𝐡𝐮𝐧𝐠𝐢 𝐜𝐡𝐮𝐩 𝐤𝐲𝐚 𝐤𝐫 𝐥𝐨𝐠𝐞 𝐭𝐮𝐦", threadID);
    };
 
-   if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
-     return api.sendMessage("Hello, Hi, Bye bye. Ye sab ke alawa kuch bolna nhi ata Kya tujhe", threadID);
+   if ((event.body.toLowerCase() == "randi") || (event.body.toLowerCase() == "lodu") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
+     return api.sendMessage("TERI MA KI CHUT GALI MAT DO😼😡FAD DUNGI", threadID);
    };
 
    if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "Bc")) {
