@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Khoon Kar Dungi")==0 ||  event.body.indexOf("khoon")==0) {
+	if (event.body.indexOf("@Basanti Bot")==0 ||  event.body.indexOf("khoon")==0) {
 		var msg = {
 				body: "Mujhe mat bulao Khoon kar dungi tera🤨🤨🤨",
 			}
